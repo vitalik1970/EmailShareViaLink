@@ -1,0 +1,46 @@
+.copy-container {
+    margin: auto;
+    width:80%;
+    display: block;
+    overflow: hidden;
+    max-width:700px;
+}
+.shared-email-content {
+    max-width: 90%;
+    margin-left:5%;
+    margin-top:20px;
+    overflow: hidden;
+}
+.shared-email-content img {
+    max-width: 100%;
+}
+
+.copy-button {
+    float:left;
+    display: block;
+    padding: 11px;
+    background: none;
+    color: #444;
+    border: 1px solid #ff9000;
+    border-radius: 3px;
+    text-decoration: none;
+    height: 52px;
+    margin-left:20px;
+}
+.copy-link-input {
+    float: left;
+    width:70% !important;
+    border: 1px solid #aaa !important;
+    -webkit-box-shadow: 0 0 3px 1px hsl(0deg 0% 67% / 50%);
+    box-shadow: 0 0 3px 1px hsl(0deg 0% 67% / 50%);
+    height: 32px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 20px;
+    font-size: 13px;
+}
+.shared-iframe {
+    width:900px;
+    border:none;
+    height:100%;
+}

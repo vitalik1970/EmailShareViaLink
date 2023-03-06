@@ -1,0 +1,308 @@
+/* Billing. */
+
+.billing_items {
+    display: flex;
+}
+
+.billing_item {
+    width: calc(100% / 3 - 40px);
+    max-width: 276px;
+}
+
+.billing_item:not(:last-child) {
+    margin-right: 40px;
+    border-right: 1px solid #E0E3E9;
+}
+
+.billing_item_label {
+    color: #9699AB;
+}
+
+.billing_item_num {
+    margin-top: 22px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.billing_item_num ._blue {
+    color: #5262EE;
+}
+
+.billing_item_num ._red {
+    color: #F55D66;
+}
+
+.billing_item_num ._silver {
+    color: #9699AB;
+}
+
+.billing_item_bottom {
+    display: flex;
+
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.billing_item_bottom .checkbox {
+    margin-right: 8px;
+}
+
+.billing_btn {
+    margin-top: 80px;
+}
+
+.billing .button {
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+/* Billing. */
+
+
+
+/* Billing_upgrade. */
+
+.billing_upgrade {
+    position: relative;
+
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #F7F8FC;
+    border: 1px solid #E0E3E9;
+    max-width: 1010px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.billing_upgrade:before {
+    content: '';
+    position: absolute;
+    top: 36px;
+    right: 46px;
+
+    width: 60px;
+    height: 60px;
+    background-image: url("data:image/svg+xml,%3Csvg width='59' height='60' viewBox='0 0 59 60' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.6441 52.0765C20.4286 52.0765 20.2219 51.991 20.0695 51.8389C19.9171 51.6868 19.8315 51.4806 19.8315 51.2655V47.606C19.8315 47.3909 19.9171 47.1846 20.0695 47.0325C20.2219 46.8804 20.4286 46.7949 20.6441 46.7949C20.8596 46.7949 21.0663 46.8804 21.2187 47.0325C21.3711 47.1846 21.4567 47.3909 21.4567 47.606V51.259C21.4576 51.366 21.4372 51.4722 21.3967 51.5713C21.3563 51.6705 21.2966 51.7607 21.221 51.8367C21.1455 51.9127 21.0556 51.973 20.9566 52.0141C20.8576 52.0553 20.7514 52.0765 20.6441 52.0765V52.0765Z' fill='%235262EE'/%3E%3Cpath d='M26.1703 53.9385H22.4972C22.2817 53.9385 22.075 53.8531 21.9226 53.701C21.7702 53.5488 21.6846 53.3426 21.6846 53.1275C21.6846 52.9124 21.7702 52.706 21.9226 52.5539C22.075 52.4018 22.2817 52.3164 22.4972 52.3164H26.1703C26.3858 52.3164 26.5925 52.4018 26.7449 52.5539C26.8973 52.706 26.9829 52.9124 26.9829 53.1275C26.9829 53.3426 26.8973 53.5488 26.7449 53.701C26.5925 53.8531 26.3858 53.9385 26.1703 53.9385Z' fill='%235262EE'/%3E%3Cpath d='M20.6441 59.4603C20.4286 59.4603 20.2219 59.3748 20.0695 59.2227C19.9171 59.0706 19.8315 58.8643 19.8315 58.6492V54.9898C19.8315 54.7747 19.9171 54.5683 20.0695 54.4162C20.2219 54.2641 20.4286 54.1787 20.6441 54.1787C20.8597 54.1787 21.0664 54.2641 21.2188 54.4162C21.3711 54.5683 21.4567 54.7747 21.4567 54.9898V58.6492C21.4567 58.8643 21.3711 59.0706 21.2188 59.2227C21.0664 59.3748 20.8597 59.4603 20.6441 59.4603Z' fill='%235262EE'/%3E%3Cpath d='M18.7688 53.9385H15.1022C14.8867 53.9385 14.68 53.8531 14.5276 53.701C14.3752 53.5488 14.2896 53.3426 14.2896 53.1275C14.2896 52.9124 14.3752 52.706 14.5276 52.5539C14.68 52.4018 14.8867 52.3164 15.1022 52.3164H18.7688C18.9843 52.3164 19.191 52.4018 19.3434 52.5539C19.4958 52.706 19.5814 52.9124 19.5814 53.1275C19.5814 53.3426 19.4958 53.5488 19.3434 53.701C19.191 53.8531 18.9843 53.9385 18.7688 53.9385Z' fill='%235262EE'/%3E%3Cpath d='M55.0048 3.32875C54.869 3.32875 54.7387 3.27488 54.6427 3.17902C54.5466 3.08316 54.4927 2.95315 54.4927 2.81758V0.511171C54.4927 0.3756 54.5466 0.245595 54.6427 0.149732C54.7387 0.053869 54.869 0 55.0048 0C55.1406 0 55.2709 0.053869 55.367 0.149732C55.463 0.245595 55.5169 0.3756 55.5169 0.511171V2.81349C55.5175 2.88096 55.5046 2.94788 55.4791 3.01037C55.4536 3.07286 55.416 3.1297 55.3684 3.1776C55.3208 3.2255 55.2641 3.2635 55.2017 3.28944C55.1393 3.31538 55.0724 3.32875 55.0048 3.32875V3.32875Z' fill='%239699AB'/%3E%3Cpath d='M58.4878 4.50233H56.1728C56.037 4.50233 55.9067 4.44846 55.8107 4.3526C55.7146 4.25673 55.6606 4.12673 55.6606 3.99116C55.6606 3.85558 55.7146 3.72555 55.8107 3.62969C55.9067 3.53382 56.037 3.47998 56.1728 3.47998H58.4878C58.6236 3.47998 58.7539 3.53382 58.85 3.62969C58.946 3.72555 59 3.85558 59 3.99116C59 4.12673 58.946 4.25673 58.85 4.3526C58.7539 4.44846 58.6236 4.50233 58.4878 4.50233Z' fill='%239699AB'/%3E%3Cpath d='M55.0048 7.98256C54.869 7.98256 54.7387 7.92869 54.6427 7.83283C54.5466 7.73696 54.4927 7.60696 54.4927 7.47139V5.16498C54.4927 5.02941 54.5466 4.89938 54.6427 4.80352C54.7387 4.70765 54.869 4.65381 55.0048 4.65381C55.1406 4.65381 55.2709 4.70765 55.367 4.80352C55.463 4.89938 55.517 5.02941 55.517 5.16498V7.47139C55.517 7.60696 55.463 7.73696 55.367 7.83283C55.2709 7.92869 55.1406 7.98256 55.0048 7.98256Z' fill='%239699AB'/%3E%3Cpath d='M53.8231 4.50233H51.5122C51.3763 4.50233 51.2461 4.44846 51.15 4.3526C51.054 4.25673 51 4.12673 51 3.99116C51 3.85558 51.054 3.72555 51.15 3.62969C51.2461 3.53382 51.3763 3.47998 51.5122 3.47998H53.8231C53.9589 3.47998 54.0892 3.53382 54.1852 3.62969C54.2813 3.72555 54.3352 3.85558 54.3352 3.99116C54.3352 4.12673 54.2813 4.25673 54.1852 4.3526C54.0892 4.44846 53.9589 4.50233 53.8231 4.50233Z' fill='%239699AB'/%3E%3Cpath d='M2.87995 32.5725C4.4705 32.5725 5.7599 31.2856 5.7599 29.6981C5.7599 28.1106 4.4705 26.8237 2.87995 26.8237C1.28939 26.8237 0 28.1106 0 29.6981C0 31.2856 1.28939 32.5725 2.87995 32.5725Z' fill='%2332AD67'/%3E%3Cpath d='M55.5 46.6582C56.3284 46.6582 57 45.9866 57 45.1582C57 44.3298 56.3284 43.6582 55.5 43.6582C54.6716 43.6582 54 44.3298 54 45.1582C54 45.9866 54.6716 46.6582 55.5 46.6582Z' fill='%230B0E37'/%3E%3Cpath d='M32.7051 27.7271C35.6295 27.7271 38.0001 25.3565 38.0001 22.4321C38.0001 19.5078 35.6295 17.1372 32.7051 17.1372C29.7808 17.1372 27.4102 19.5078 27.4102 22.4321C27.4102 25.3565 29.7808 27.7271 32.7051 27.7271Z' fill='%235262EE'/%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+}
+
+.billing_upgrade_title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.billing_upgrade_text {
+    margin-top: 18px;
+    line-height: 1.55;
+}
+
+.billing_upgrade_bottom {
+    display: flex;
+    align-items: center;
+
+    margin-top: 32px;
+}
+
+.billing_upgrade_button {
+    margin-right: 40px;
+}
+
+.billing_upgrade_more {
+    --icon: 28px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    color: #32AD67;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.billing_upgrade_more:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+
+    border-bottom: 1px solid #32AD67;
+
+    transition: right .43s;
+}
+
+.billing_upgrade_more:hover:before {
+    right: var(--icon);
+}
+
+.billing_upgrade_more svg {
+    width: var(--icon);
+    height: var(--icon);
+}
+
+/* Billing_upgrade. */
+
+
+
+/* Billing_plan. */
+
+.billing_plans {
+    --grid: 3;
+
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(var(--grid), 1fr);
+
+    max-width: 1010px;
+    margin-top: 40px;
+}
+
+.billing_plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 40px 24px 26px;
+    background-color: #F7F8FC;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 15px;
+}
+
+.billing_plan_name {
+    color: #5262EE;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.billing_plan_price {
+    margin-top: 18px;
+}
+
+.billing_plan hr {
+    border-top: 1px solid #0B0E37;
+    opacity: .1;
+    margin: 36px 0 28px;
+}
+
+.billing_plan_label {
+    font-size: 14px;
+}
+
+.billing_plan ul {
+    margin-top: 24px;
+}
+
+.billing_plan li {
+    --icon: 20px;
+    --inner: 10px;
+
+    position: relative;
+
+    padding-left: calc(var(--icon) + var(--inner));
+    line-height: 2.1;
+}
+
+.billing_plan li:before {
+    content: '';
+    position: absolute;
+    top: calc(16px * 2.1 / 2 - var(--icon) / 2);
+    left: 0;
+
+    width: var(--icon);
+    height: var(--icon);
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cellipse opacity='0.2' cx='10' cy='10.101' rx='10' ry='10.101' fill='%230B0E37'/%3E%3Cg clip-path='url(%23clip0_1_2227)'%3E%3Cpath d='M9.38877 11.9509L13.7294 7.56592L14.3976 8.24038L9.38877 13.2998L6.38354 10.2643L7.05127 9.5898L9.38877 11.9509Z' fill='%230B0E37'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_1_2227'%3E%3Crect width='11.3333' height='11.4478' fill='white' transform='translate(4.66675 4.71387)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.billing_plan_button {
+    margin-top: 44px;
+}
+
+.billing_plan_button .button {
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.billing_plan .button._inactive {
+    color: #9699AB;
+    border: 1px solid #9699AB;
+    background-color: transparent;
+    cursor: no-drop;
+    box-shadow: none !important;
+}
+
+/* Billing_plan. */
+
+.billing_item_bottom .checkbox {
+    margin-right: 8px;
+}
+
+.checkbox {
+    position: relative;
+}
+.checkbox__input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+.checkbox__label {
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+}
+
+.checkbox__label:before {
+    content: "";
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 2.8125rem;
+    flex: 0 0 2.8125rem;
+    width: 2.8125rem;
+    height: 1.5rem;
+    background: #e0e3e9;
+    border-radius: 3.125rem;
+}
+.checkbox__text {
+    background-color: #fff;
+    width: 1.125rem;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+    height: 1.125rem;
+    position: absolute;
+    top: 50%;
+    left: 0.1875rem;
+    border-radius: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+}
+.checkbox__input:checked+.checkbox__label .checkbox__text {
+    left: unset;
+    right: 0.1875rem;
+}
+.checkbox__input:checked+.checkbox__label::before {
+    background: #32ad67;
+}
+
+.btn_grey {
+    color: #406AF6;
+    background: #E7ECFF;
+}
+
+

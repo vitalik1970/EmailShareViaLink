@@ -1,0 +1,42 @@
+.share-action {
+    width: 100%;
+    display: block;
+    border: 1px solid #CCC;
+    min-height: 50px;
+    vertical-align: center;
+    font-size: 30px;
+    color: #4d4d4d;
+    border-radius: 10px;
+}
+.share-action .a-child {
+    display:block;
+    height:100%;
+    overflow: hidden;
+    /*margin-left: 36%;*/
+    margin-left: 10%;
+}
+.share-action .a-child span {
+    display:block;
+    float: left;
+    text-align: center;
+    vertical-align: center;
+    height:100%
+}
+.share-action:hover {
+    background-color:#eaeaea;
+}
+.share-root {
+    margin: auto;
+    max-width: 900px;
+    margin-top:40px;
+}
+.share-action svg {
+    width: 40px;
+    height:37px;
+}
+.svg-span {
+    margin-top:2px;
+}
+.share-container {
+    margin-top:30px;
+}
