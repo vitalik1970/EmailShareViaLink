@@ -17,6 +17,11 @@
 html{
    overflow-x: hidden; 
 }
+ img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 :root {
     --icon_size: 32px;
@@ -505,6 +510,9 @@ label.lever input[type=checkbox]:checked+span:after {
 .header_logo {
     display: flex;
     align-items: center;
+}
+.header_logo img {
+    width: 32px;
 }
 .header_logo :first-child {
     margin-right: 10px;
@@ -3035,7 +3043,7 @@ color: #406AF6;
  
 .send {
     display: flex;
-    padding: 15px 40px 15px 50px;
+    padding: 15px 40px 15px 40px;
     gap: 10px;
     background: #406AF6;
     border-radius: 36px;
@@ -3045,6 +3053,11 @@ color: #406AF6;
     color: #FFFFFF;
     max-width: max-content;
     margin: 40px auto 16px;
+    font-size: calc(var(--sizeindex) * 1);
+}
+.send img {
+width: 24px;
+
 }
 .its {
     font-weight: 400;
@@ -3091,6 +3104,11 @@ label {
 	border-radius: 50%;
 	/* vertical-align: text-top; */
 	margin-right: 12px;
+}
+label img {
+display: inline-block;
+    width: 100px;
+    height: 24px;
 }
 
 .custom-radio::before {
@@ -3241,7 +3259,7 @@ details[open] summary:after {
   .new-title{
      
    list-style-type: none; 
-   font-size: calc(var(--sizeindex) * 1.2) ;
+   font-size: calc(var(--sizeindex) * 1.1) ;
    font-family: 'Helvetica Neue';
    padding: 18px 0;
    font-weight: 500;
