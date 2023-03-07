@@ -1504,6 +1504,7 @@ h3.sign_title {
    
 .mailing_net {
     flex-direction: column;
+    align-items: center;
 }
 .mailing_left {
     margin-right: 0;
@@ -3173,24 +3174,12 @@ display: inline-block;
 }
 details[open]{
    animation: sloy 950ms ease-in-out;}
-   
-
-.new-title{
-   -webkit-list-style-type: none;  
-  list-style-type: none; 
- font-size: calc(var(--sizeindex) * 1.4) ;
- font-family: 'Helvetica Neue';
- padding: 18px 0;
-font-weight: 500;
-position: relative;
-line-height: 150%;
-color: #242527;
 
 
-}
 .new-list {
-    box-shadow: 3px 3px 4px rgb(28, 28, 28);
-    padding-bottom: 20px;
+    /* box-shadow: 3px 3px 4px rgb(28, 28, 28);*/
+    padding-bottom: 20px; 
+
 }
 /* .new-title::before {
     content: " ";
@@ -3228,25 +3217,24 @@ details[open] summary:after {
 
 
 .accordion {
-   
+    cursor: pointer;
     border-bottom: 2px solid  rgba(0,  0,  0,  .2);
     border-top: 2px solid  rgba(0,  0,  0,  .2); 
      color: #696f7c;  
    width: 57vw;
   }
   .accordion-header {
-    cursor: pointer;
-    position: relative;
+   
+   width: 53vw;
   
   }
   .accordion-header:hover {
     
   }
   .accordion-icon {
-    position: absolute;
-    font-size: 1.0em; 
-    right: 10px;
-    top: 50%;
+   
+    font-size: 24px; 
+    height: 3vh;
     transform: translateY(-50%);
   }
   .accordion.active .accordion-icon:before {
@@ -3267,19 +3255,15 @@ details[open] summary:after {
    list-style-type: none; 
    font-size: calc(var(--sizeindex) * 1.1) ;
    font-family: 'Helvetica Neue';
-   padding: 18px 0;
+    padding: 18px 0; 
    font-weight: 500;
-   position: relative;
+ 
    line-height: 150%;
    color: #242527;
  
  
  }
- .new-list {
-  
-    box-shadow: 3px 3px 4px rgb(28, 28, 28);
-    padding: 15px;
- }
+ 
  .toShow {
     display: block;
     transition: height 1.50s ease;
@@ -3301,13 +3285,18 @@ details[open] summary:after {
     text-align: center;
   
 }
+.horisontal_left p {
+    
+   
+    margin: 0 auto 26px;
+}
 .new-title {
     font-size: 14px;
 }
-.accordion-icon {
-    right: -2px;
-  }
+
 }
+
+             /* анимация */
 .item {
     /* font-size: 30px; */
     transform: translate(-100%, 0px);
@@ -3336,11 +3325,29 @@ details[open] summary:after {
   .item:nth-child(5) {
     animation-delay: 0.8s; 
 }
+   /* анимация конец */
 .flex__faq {
     display: flex;
     justify-content: space-between;
 }
 
-
+.mailing-shadow {
+    width: 595px;
+height: 475px;
+background-color: #F7F7F8;
+border-radius: 20px;
+}
+.mailing-shadow__block-gif {
+    align-items: center;
+    justify-content: center;
+    
+}
+.accordion-conteiner {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    
+}
 
 
