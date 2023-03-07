@@ -3299,11 +3299,7 @@ details[open] summary:after {
    align-items: flex-start;
    padding: 0 14vw;
     text-align: center;
-   /* text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   height: 100%; */
+  
 }
 .new-title {
     font-size: 14px;
@@ -3340,45 +3336,9 @@ details[open] summary:after {
   .item:nth-child(5) {
     animation-delay: 0.8s; 
 }
-
-.parallax {
-    /* The image used */
-    background-image: url("../img/1645709418_26-kartinkin-net-p-informatsionnie-tekhnologii-kartinki-30.jpg");
-
-    /* Set a specific height */
-    height: 870px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-.parallax1 {
-    /* The image used */
-    background-image: url("../img/1645709436_16-kartinkin-net-p-informatsionnie-tekhnologii-kartinki-19.jpg");
-
-    /* Set a specific height */
-    height: 800px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.parallax2 {
-    /* The image used */
-    background-image: url("../img/1645709464_21-kartinkin-net-p-informatsionnie-tekhnologii-kartinki-25.jpg");
-
-    /* Set a specific height */
-    height: 200px;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.flex__faq {
+    display: flex;
+    justify-content: space-between;
 }
 
 
