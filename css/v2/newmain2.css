@@ -601,7 +601,7 @@ label.lever input[type=checkbox]:checked+span:after {
     display: none;
     position: fixed;
     top: 73px;
-    left: 50%;
+    left: 5%;
     right: 26px;
     bottom: -80px;
     max-height: 100vh;
@@ -665,6 +665,7 @@ label.lever input[type=checkbox]:checked+span:after {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 .footer_bottom {
     --color: var(--gray);
@@ -1559,9 +1560,18 @@ h3.sign_title {
     } */
     
 .horisontal_left {
-    text-align: center;
-    margin: 0 0 9vh 4vw;
-  
+         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-content: flex-start;
+        padding: 0 14vw 4vh 14vw;
+        /* text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%; */
+    }
+   
    
 } 
 .horisontal_left p {
@@ -1583,7 +1593,7 @@ h3.sign_title {
 .desc_form_submit {
     margin-top: 28px;
 }
-}@media only screen and (max-width:900px) {
+@media only screen and (max-width:900px) {
     :root {
     --grid_3: 2;
 }
@@ -1646,7 +1656,7 @@ h3.sign_title {
     margin-bottom: 16px;
 }
 .horisontal {
-    padding: 40px 0 80px;
+    padding: 40px 0 13px;
 }
 .privacy {
     padding: 40px 0 80px;
@@ -1789,7 +1799,7 @@ h3.sign_title {
     margin-right: 0;
 }
 }
---root  {
+:root  {
     
     --scroll:  0px;
     
@@ -2243,6 +2253,10 @@ h3.sign_title {
         font-size:  20px;
     
 }
+.triple {
+    padding: 7px 0 50px;
+}
+
 
 }
 
@@ -2253,7 +2267,9 @@ h3.sign_title {
         font-size:  22px;
     
 }
-
+.mailing {
+    padding: 20px 0;
+}
 
     .notify  {
     
@@ -3004,7 +3020,7 @@ h3.sign_title {
 .border-forward  {
     background-color: #F7F7F8;
     padding: 64px;
-    border-radius:  5px;
+    border-radius:  15px;
     text-align: center;
 }
 .email-to-forward  {
@@ -3034,7 +3050,7 @@ color: #406AF6;
     max-width: 361px;
     margin: 12px auto 0;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 150%;
     text-align: center;
     color: var(--gray);
@@ -3053,7 +3069,7 @@ color: #406AF6;
     color: #FFFFFF;
     max-width: max-content;
     margin: 40px auto 16px;
-    font-size: calc(var(--sizeindex) * 1);
+    font-size: 20px;
 }
 .send img {
 width: 24px;
@@ -3061,13 +3077,17 @@ width: 24px;
 }
 .its {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     color: var(--gray);
 }
 .horisontal_left {
-    max-width: 410px;
-    margin-right: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    padding: 0 12vw 0 0;
 }
+
 
 .form-group + .form-group {
 	margin-top: 30px;
@@ -3286,6 +3306,26 @@ details[open] summary:after {
     /* align-items: center; */
 }
 
+@media (max-width:  1000px)  {
+    .horisontal_left {
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 0 14vw 4vh;
+    text-align: center;
+   /* text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100%; */
+}
+.new-title {
+    font-size: 14px;
+}
+.accordion-icon {
+    right: -2px;
+  }
+}
 
 
 
