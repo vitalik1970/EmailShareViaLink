@@ -778,6 +778,20 @@ label.lever input[type=checkbox]:checked+span:after {
     margin: 17px 0 50px;
     font-size: var(--h5);
 }
+
+.mailing-shadow {
+    width: 595px;
+    height: 475px;
+background-color: #F7F7F8;
+border-radius: 20px;
+}
+
+
+.mailing-shadow__block-gif {
+    align-items: center;
+    justify-content: center;
+    
+}
 .link-underline{
     text-decoration: underline;
 }
@@ -1501,14 +1515,19 @@ h3.sign_title {
     grid-template-columns: repeat(2, 1fr);
 }
 }@media only screen and (max-width:1024px) {
-   
+    .accordion {
+        
+        width: 80vw;
+       }
 .mailing_net {
     flex-direction: column;
     align-items: center;
 }
 .mailing_left {
-    margin-right: 0;
+    margin-right: 0px;
     margin-bottom: 40px;
+   
+    text-align: center;
 }
 .mailing_form {
     max-width: 524px;
@@ -1522,6 +1541,9 @@ h3.sign_title {
     text-align: center;
 }
 }@media only screen and (max-width:1000px) {
+    .advantage_left p {
+    margin: 0 auto;
+    }
     .footer_bottom {
     font-size: 12px;
     padding: 10px;
@@ -1704,6 +1726,21 @@ h3.sign_title {
     --h3: 24px;
     --bone: 20px;
 }
+.accordion-header {
+    width: 70vw;
+}
+ 
+.mailing-shadow {
+    width: 50px;
+    height: 75px;
+}
+.accordion-header {
+    width: 70vw;
+}
+.footer_title {
+   
+    text-align: center;
+}
 .list {
     --icon_size: 24px;
 }
@@ -1760,11 +1797,21 @@ h3.sign_title {
     margin-left: calc(var(--bone) * -1);
     margin-right: calc(var(--bone) * -1);
 }
-}@media only screen and (max-width:370px) {
+}@media  (max-width:400px) {
     :root {
     --grid_2: 1;
     --grid_3: 1;
     --bone: 16px;
+}
+.send {
+    
+    padding: 15px 40px 15px 24px;
+   
+    font-size: 16px;
+}
+.send img {
+width: 18px;
+
 }
 .input .btn {
     --btn_height: 32px;
@@ -2322,7 +2369,6 @@ h3.sign_title {
 }
 
 }
-
 
 @media (max-width: 479px)  {
     
@@ -2905,12 +2951,19 @@ h3.sign_title {
     
 }
 @media only screen and (max-width:  600px)  {
-    
+    .mailing-shadow {
+        width: 450px;
+        height: 475px;
+    }
     ._proxi  {
     
         text-align:  right;
     
 }
+.accordion-header {
+    width: 70vw;
+}
+ 
 
 }
 
@@ -2927,7 +2980,10 @@ h3.sign_title {
     
 }
 @media (max-width:  1024px)  {
-    
+    .accordion {
+        
+        width: 80vw;
+       }
     #nav-desktop  {
     
         display:  none;
@@ -2966,7 +3022,10 @@ h3.sign_title {
         display:  flex;
     
 }
-
+.accordion-header {
+    width: 70vw;
+}
+   
 }
 .hidden2  {
     
@@ -3225,7 +3284,7 @@ details[open] summary:after {
   }
   .accordion-header {
    
-   width: 53vw;
+   width: 70vw;
   
   }
   .accordion-header:hover {
@@ -3275,8 +3334,17 @@ details[open] summary:after {
      align-items: flex-start; 
     /* align-items: center; */
 }
-
+@media (max-width:  1024px)  {
+    .accordion {
+        
+        width: 78vw;
+       }
+       .mailing {
+        padding: 80px 0;
+        }
+    }
 @media (max-width:  1000px)  {
+    
     .horisontal_left {
     display: flex;
    flex-direction: column;
@@ -3293,9 +3361,31 @@ details[open] summary:after {
 .new-title {
     font-size: 14px;
 }
-
 }
-
+@media (max-width:  660px)  {
+    .mailing-shadow {
+        width: 450px;
+        height: 360px;
+    }
+}
+@media (max-width:  450px)  {
+    .mailing-shadow {
+        width: 360px;
+        height: 296px;
+    }
+    .mailing_left p {
+        margin: 9px 0 12px;
+    }
+    .mailing_left p {
+    margin: 9px 0 33px;
+    }
+    .mailing {
+    padding: 50px 0;
+    }
+    .footer_title {
+    text-align: center;
+    }
+}
              /* анимация */
 .item {
     /* font-size: 30px; */
@@ -3303,6 +3393,8 @@ details[open] summary:after {
     opacity: 0;
     animation: item-slide 1s forwards;
  }
+
+
  @keyframes item-slide {
     100% {
       opacity: 1;
@@ -3331,17 +3423,6 @@ details[open] summary:after {
     justify-content: space-between;
 }
 
-.mailing-shadow {
-    width: 595px;
-height: 475px;
-background-color: #F7F7F8;
-border-radius: 20px;
-}
-.mailing-shadow__block-gif {
-    align-items: center;
-    justify-content: center;
-    
-}
 .accordion-conteiner {
     display: flex;
     align-items: center;
