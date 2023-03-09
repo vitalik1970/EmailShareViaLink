@@ -711,6 +711,10 @@ label.lever input[type=checkbox]:checked+span:after {
     position: relative;
     padding: 52px;
     border: 1px solid #edeef1;
+    border-radius: 15px;
+background: #F7F7F8;
+box-shadow:  -20px 20px 60px #d2d2d3,
+             20px -20px 60px #ffffff;
 }
 .triple_item:not(:last-child):before {
     content: '';
@@ -784,6 +788,7 @@ label.lever input[type=checkbox]:checked+span:after {
     height: 475px;
 background-color: #F7F7F8;
 border-radius: 20px;
+box-shadow: -20px 10px 20px #d2d2d3, 9px -20px 20px #ffffff;
 }
 
 
@@ -1104,6 +1109,9 @@ border-radius: 20px;
     padding: 40px 24px 30px 30px;
     /* height: 300px; */
     background-color: var(--white);
+    box-shadow:  -20px 20px 60px #d2d2d3,
+             20px -20px 60px #ffffff;
+             border-radius: 15px;
 }
 .advantage_item:nth-child(odd) {
     transform: translate3d(0, 52px, 0);
@@ -3064,10 +3072,13 @@ width: 18px;
     
 }
 .border-forward  {
-    background-color: #F7F7F8;
+    
     padding: 64px;
     border-radius:  15px;
     text-align: center;
+   
+background: #F7F7F8;
+box-shadow: -20px 10px 20px #d2d2d3, 9px -20px 20px #ffffff;
 }
 .email-to-forward  {
     
