@@ -3399,7 +3399,7 @@ details[open] summary:after {
     text-align: center;
     }
 }
-@media (max-width: 370px){
+@media (max-width: 380px){
 .mailing-shadow {
     width: 325px;
     height: 296px;
