@@ -3399,7 +3399,21 @@ details[open] summary:after {
     text-align: center;
     }
 }
-             /* анимация */
+@media (max-width: 370px){
+.mailing-shadow {
+    width: 325px;
+    height: 296px;
+}
+.send {
+    padding: 14px 40px 12px 37px;
+    font-size: 16px;
+}
+.send img {
+    width: 21px;
+}
+
+
+}                        /* анимация */
 .item {
     /* font-size: 30px; */
     transform: translate(-100%, 0px);
