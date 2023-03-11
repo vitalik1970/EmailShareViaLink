@@ -3404,14 +3404,6 @@ details[open] summary:after {
     width: 325px;
     height: 296px;
 }
-
-.border-forward {
-    padding: 30px 33px;
-    }
-.horisontal_img {
-    width: min(100%, 600px);
-
-    }    
 .send {
     padding: 14px 40px 12px 37px;
     font-size: 16px;
@@ -3419,17 +3411,9 @@ details[open] summary:after {
 .send img {
     width: 21px;
 }
-}   
-@media (max-width: 340px){
-.send {
-    padding: 14px 25px 12px 22px;
-    font-size: 16px;
-    }   
-   
-.border-forward__share span {
-    font-size: 18px;
-    } 
-             /* анимация */
+
+
+}                        /* анимация */
 .item {
     /* font-size: 30px; */
     transform: translate(-100%, 0px);
