@@ -3368,7 +3368,6 @@ details[open] summary:after {
 }
 .horisontal_left p {
     
-   
     margin: 0 auto 26px;
 }
 .new-title {
@@ -3398,6 +3397,15 @@ details[open] summary:after {
     .footer_title {
     text-align: center;
     }
+    .horisontal_left {
+        padding: 0 8vw;
+    }
+    .border-forward {
+        padding: 31px 34px;
+        }
+    .send {
+    margin: 17px auto 16px;
+    }   
 }
 @media (max-width: 380px){
 .mailing-shadow {
@@ -3405,14 +3413,17 @@ details[open] summary:after {
     height: 296px;
 }
 .send {
-    padding: 14px 40px 12px 37px;
+    padding: 15px 40px 12px 37px;
     font-size: 16px;
 }
 .send img {
     width: 21px;
 }
-
-
+@media (max-width: 380px){
+.border-forward {
+    padding: 31px 13px;
+    }
+}
 }                        /* анимация */
 .item {
     /* font-size: 30px; */
