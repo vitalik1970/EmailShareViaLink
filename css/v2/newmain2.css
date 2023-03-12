@@ -3069,12 +3069,12 @@ width: 18px;
     
 }
 .border-forward  {
-    
+    background-color: #F7F7F8;
     padding: 64px;
     border-radius:  15px;
     text-align: center;
-    background: linear-gradient(145deg, #ffffff, #dededf);
-    /* box-shadow:  6px 6px 12px #a3a3a4,
+    /* background: linear-gradient(145deg, #ffffff, #dededf);
+    box-shadow:  6px 6px 12px #a3a3a4,
                  -6px -6px 12px #ffffff; */
 }
 .email-to-forward  {
